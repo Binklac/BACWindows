@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="其它">
+      <UniqueIdentifier>{357c33da-2566-4828-a5f8-eb642bb3aa5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Logger">
+      <UniqueIdentifier>{fd9bdc5c-e718-4d8e-84d0-5f9068138e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Logger">
+      <UniqueIdentifier>{90f65445-4c0f-46e6-8795-24dba4240b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Lpc">
+      <UniqueIdentifier>{c9929a2d-80c7-462b-81e0-da7578962ba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Lpc">
+      <UniqueIdentifier>{e220ff3c-bb23-4f54-b51f-d9727f7b0937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ServiceControl">
+      <UniqueIdentifier>{91dcb91b-197b-4843-b0bb-a8c2726cd897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ServiceControl">
+      <UniqueIdentifier>{6b7e8a25-2bc2-4caa-991b-346c894fc3cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LibraryEntry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemUtil.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CallbackLogger.cpp">
+      <Filter>源文件\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="LpcClient.cpp">
+      <Filter>源文件\Lpc</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiCheatService.cpp">
+      <Filter>源文件\ServiceControl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Exports.def">
+      <Filter>其它</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BACControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemUtil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CallbackLogger.h">
+      <Filter>头文件\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiCheatService.h">
+      <Filter>头文件\ServiceControl</Filter>
+    </ClInclude>
+    <ClInclude Include="LpcClient.h">
+      <Filter>头文件\Lpc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

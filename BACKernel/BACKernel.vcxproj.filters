@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Irp">
+      <UniqueIdentifier>{fee57994-e418-4774-9814-d5a52f2ac726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Irp">
+      <UniqueIdentifier>{ac1c780c-ba8b-4d0b-96aa-16c3b60aa589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logger">
+      <UniqueIdentifier>{830760e0-0c85-4e2c-a607-2f83cda5daf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Logger">
+      <UniqueIdentifier>{5580f8dc-61fd-4943-8ff5-2963019096a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Global">
+      <UniqueIdentifier>{ce836b8d-cda1-49ed-af0b-0d698f05c6c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lpc">
+      <UniqueIdentifier>{15c84937-82af-4f76-84d4-acf763145388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lpc">
+      <UniqueIdentifier>{510b3c4e-aff0-4896-a54b-bcee3c05f7a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Struct">
+      <UniqueIdentifier>{9accba85-fc82-4aff-8a5e-22e8f982eea9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DriverEntry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalConstant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IrpDispather.cpp">
+      <Filter>Source Files\Irp</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelLogger.cpp">
+      <Filter>Source Files\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="LpcManager.cpp">
+      <Filter>Source Files\Lpc</Filter>
+    </ClCompile>
+    <ClCompile Include="LpcDispatch.cpp">
+      <Filter>Source Files\Lpc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IrpDispather.h">
+      <Filter>Header Files\Irp</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelLogger.h">
+      <Filter>Header Files\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalConstant.h">
+      <Filter>Header Files\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalDeclaration.h">
+      <Filter>Header Files\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="LpcManager.h">
+      <Filter>Header Files\Lpc</Filter>
+    </ClInclude>
+    <ClInclude Include="NtLpcApi.h">
+      <Filter>Header Files\Lpc</Filter>
+    </ClInclude>
+    <ClInclude Include="LpcMessageDefine.h">
+      <Filter>Header Files\Lpc</Filter>
+    </ClInclude>
+    <ClInclude Include="KQueue.h">
+      <Filter>Header Files\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="LpcDispatch.h">
+      <Filter>Header Files\Lpc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

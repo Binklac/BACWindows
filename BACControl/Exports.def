@@ -1,0 +1,13 @@
+﻿EXPORTS
+
+DebugRegisterLoggerCallback
+DebugRemoveLoggerCallback
+GetAntiCheatControlLibraryVersion                @1
+IsCurrentProcessRunInAdministratorMode           @2
+IsAntiCheatServicesInstalled                     @3
+IsAntiCheatServicesRunning                       @4
+InstallAntiCheatSystemService                    @5
+StartAntiCheatServices                           @6
+StopAntiCheatServices                            @7
+RemoveAntiCheatServices                          @8
+ConnectLpcControlPort                            @9
