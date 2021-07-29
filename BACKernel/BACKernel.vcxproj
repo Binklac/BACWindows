@@ -239,6 +239,7 @@
   <ItemGroup>
     <ClCompile Include="DriverEntry.cpp" />
     <ClCompile Include="GlobalConstant.cpp" />
+    <ClCompile Include="ObjectCallbackManager.cpp" />
     <ClCompile Include="IrpDispather.cpp" />
     <ClCompile Include="KernelLogger.cpp" />
     <ClCompile Include="LpcDispatch.cpp" />
@@ -247,6 +248,7 @@
   <ItemGroup>
     <ClInclude Include="GlobalConstant.h" />
     <ClInclude Include="GlobalDeclaration.h" />
+    <ClInclude Include="ObjectCallbackManager.h" />
     <ClInclude Include="IrpDispather.h" />
     <ClInclude Include="KernelLogger.h" />
     <ClInclude Include="KQueue.h" />

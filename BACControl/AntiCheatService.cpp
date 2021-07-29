@@ -1,17 +1,16 @@
 #include "AntiCheatService.h"
 #include "CallbackLogger.h"
-
-#error PLEASE MODIFY STR_CLASS_GUID AND STR_ALTITUDE 
+#include "../SharedFiles/Shared.h"
 
 const TCHAR *AntiCheatService::STR_SERVICE_NAME                   = TEXT("BinklacAntiCheat");
 const TCHAR *AntiCheatService::STR_DISPLAY_NAME                   = TEXT("Binklac anti-cheat service");
 const TCHAR *AntiCheatService::STR_GROUP_NAME                     = TEXT("FSFilter Activity Monitor");
 const TCHAR *AntiCheatService::STR_CLASS                          = TEXT("ActivityMonitor");
-const TCHAR *AntiCheatService::STR_CLASS_GUID                     = TEXT("{}");
+const TCHAR *AntiCheatService::STR_CLASS_GUID                     = TEXT("{b86dff51-a31e-4bac-b3cf-e8cfe75c9fc2}");
 const TCHAR *AntiCheatService::STR_DEPEND_ON_SERVICE              = TEXT("FltMgr");
 const TCHAR *AntiCheatService::STR_DRIVER_FILE                    = TEXT("\\BACKernel.sys");
 const TCHAR *AntiCheatService::STR_DRIVER_INSTANCE_NAME           = TEXT("Anticheat");
-const TCHAR *AntiCheatService::STR_ALTITUDE                       = TEXT("0");
+const TCHAR *AntiCheatService::STR_ALTITUDE                       = (BAC_FILTER_ALTITUDE);
 const TCHAR *AntiCheatService::STR_DRIVER_LINK_NAME               = TEXT("\\\\.\\BINKLACAC");
 const TCHAR *AntiCheatService::STR_DRIVER_REGISTRY_ROOT           = TEXT("SYSTEM\\CurrentControlSet\\Services\\BinklacAntiCheat\\");
 const TCHAR *AntiCheatService::STR_DRIVER_REGISTRY_INSTANCES_LIST = TEXT("SYSTEM\\CurrentControlSet\\Services\\BinklacAntiCheat\\Instances");

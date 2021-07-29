@@ -41,6 +41,18 @@
     <Filter Include="Header Files\Struct">
       <UniqueIdentifier>{9accba85-fc82-4aff-8a5e-22e8f982eea9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Monitor">
+      <UniqueIdentifier>{70c02a13-b470-42c5-aff5-1cac818ea713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Monitor\ObjectCallback">
+      <UniqueIdentifier>{6f90f610-06d7-4010-9e7d-551b7268a972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Monitor">
+      <UniqueIdentifier>{1a5a02f3-986b-4447-b5ee-daab07908f6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Monitor\ObjectCallback">
+      <UniqueIdentifier>{095bcd6d-9c5e-4113-ae98-e7beb07d34f0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DriverEntry.cpp">
@@ -60,6 +72,9 @@
     </ClCompile>
     <ClCompile Include="LpcDispatch.cpp">
       <Filter>Source Files\Lpc</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectCallbackManager.cpp">
+      <Filter>Source Files\Monitor\ObjectCallback</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -89,6 +104,9 @@
     </ClInclude>
     <ClInclude Include="LpcDispatch.h">
       <Filter>Header Files\Lpc</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectCallbackManager.h">
+      <Filter>Header Files\Monitor\ObjectCallback</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
